@@ -21,4 +21,4 @@
     name: powershell
     state: present
   become: true
-  when: ansible_distribution != "Fedora"  
+  when: ansible_distribution != "Fedora"
